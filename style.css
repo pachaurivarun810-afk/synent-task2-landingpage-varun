@@ -9,7 +9,6 @@ body {
   color: #222;
 }
 
-/* Hero Section */
 .hero {
   background: linear-gradient(135deg, #4a90d9, #2c5f9e);
   color: white;
@@ -52,7 +51,7 @@ body {
 
 .cta-btn {
   background-color: #ffffff;
-  color: #2c5f9e;
+  color: #1a2a3a;
   border: none;
   padding: 14px 32px;
   font-size: 1rem;
@@ -66,9 +65,8 @@ body {
   transform: scale(1.05);
 }
 
-/* Features Section */
 .features {
-  padding: 80px 20px;
+  padding: 70px 20px;
   text-align: center;
   background-color: #f4f6f8;
 }
@@ -114,7 +112,6 @@ body {
   color: #555;
 }
 
-/* Footer */
 .footer {
   text-align: center;
   padding: 25px;
@@ -123,7 +120,6 @@ body {
   font-size: 0.9rem;
 }
 
-/* Responsive - Tablet */
 @media (max-width: 900px) {
   .feature-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -133,7 +129,6 @@ body {
   }
 }
 
-/* Responsive - Mobile */
 @media (max-width: 500px) {
   .feature-grid {
     grid-template-columns: 1fr;
